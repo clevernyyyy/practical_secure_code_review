@@ -64,7 +64,7 @@ Laravel 6.x
 ### Injection
 - [ ] ORM `where` function allows for string concatenation, search for all instances
 - [ ] Search for `system` `shell_exec` `exec`
-> You can escape `CONCAT_WS` with a single ' (attendee first name)
+> You can escape `[CONCAT_WS]`(https://github.com/Attendize/Attendize/blob/undefined/app/Http/Controllers/EventCheckInController.php#L62) with a single ' (attendee first name)
 ### Cryptography
 - [X] Using Laravel's Hash facade which provides secure Bcrypt and Argon2 hashing for user passwords
 ### Configuration
