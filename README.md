@@ -87,6 +87,12 @@ Laravel 6.x
     'encrypt' => false,
 ```
 
+Sessions are stored in a file...?
+
+```
+    'driver' => env('SESSION_DRIVER', 'file'),
+```
+
 - [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
 - [nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
 - [app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
