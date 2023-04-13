@@ -112,6 +112,8 @@ HTTPS Only on Session Cookies... is false..hmm.
 
 ```
 
+- [ ] Mime types for file uploads? (yes)
+
 - [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
 - [nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
 - [app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
