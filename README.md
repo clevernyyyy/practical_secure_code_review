@@ -72,15 +72,15 @@ Laravel 6.x
 - [ ] Debug turned on?
 >APP_DEBUG=true in the example env file
 
-[server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
-[nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
-[app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
-[auth.php](https://github.com/Attendize/Attendize/blob/develop/config/auth.php)
+- [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
+- [nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
+- [app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
+- [auth.php](https://github.com/Attendize/Attendize/blob/develop/config/auth.php)
 ## Mapping / Routes
-[Web](https://github.com/Attendize/Attendize/blob/develop/routes/web.php)
-[API](https://github.com/Attendize/Attendize/blob/develop/routes/api.php)
+- [Web](https://github.com/Attendize/Attendize/blob/develop/routes/web.php)
+- [API](https://github.com/Attendize/Attendize/blob/develop/routes/api.php)
 ## Mapping / Authorization Decorators
 No auth decorators
 ## Mapping / Files
-- [ ] /path/to/some/important/file.sh
+
 Collap
