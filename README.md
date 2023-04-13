@@ -53,6 +53,7 @@ Laravel 6.x
 ### Authentication
 - [ ] Login page give error messages, check for enumeration
 - [ ] Signup page allows for freeform passwords, does it implement proper password complexity?
+- [ ] Rate limiting? (yep,  via MiddleWare)
 - [ ] [Custom Captcha](https://github.com/Attendize/Attendize/blob/develop/app/Services/Captcha/Factory.php)
 - [ ] [UserLoginController](https://github.com/Attendize/Attendize/blob/develop/app/Http/Controllers/UserLoginController.php)
 ### Authorization
@@ -91,6 +92,24 @@ Sessions are stored in a file...?
 
 ```
     'driver' => env('SESSION_DRIVER', 'file'),
+```
+
+HTTPS Only on Session Cookies... is false..hmm.
+
+```
+    /*
+    |--------------------------------------------------------------------------
+    | HTTPS Only Cookies
+    |--------------------------------------------------------------------------
+    |
+    | By setting this option to true, session cookies will only be sent back
+    | to the server if the browser has a HTTPS connection. This will keep
+    | the cookie from being sent to you if it can not be done securely.
+    |
+    */
+
+    'secure' => env('SESSION_SECURE_COOKIE', false),
+
 ```
 
 - [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
