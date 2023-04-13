@@ -35,12 +35,11 @@ Laravel 6.x
   - dompdf
   - wkhtml2pdf (Attendize uses Wkhtml2PDF to generate tickets)
   - maatwebsite/excel
-  * Building libraries (rubygem, npm, jar, etc.)
-  * JavaScript widgets - (marketing tracking, sales chat widget)
-  * Reliant upon other applications - such as receiving webhook events
+  
 * Datastore - Postgresql, MySQL, Memcache, Redis, Mongodb, etc.
   - MySQL 5.7.23
   >They’re seeding the database from this file - https://github.com/Attendize/Attendize/blob/develop/database/seeds/countries.json
+  
 ## Brainstorming / Risks
 * Here is what the feature or product is supposed to do... what might go wrong?
 * Okay - based on the tech stack, I've realized that the:
@@ -63,7 +62,6 @@ Laravel 6.x
 ### Auditing/Logging
 - [X] There is essentially no logging here (besides console logging)
 ### Injection
-- [ ] ORM `where` function allows for string concatenation, search for all instances
 - [ ] Search for `system` `shell_exec` `exec`
 > You can escape `[CONCAT_WS]`(https://github.com/Attendize/Attendize/blob/undefined/app/Http/Controllers/EventCheckInController.php#L62) with a single ' (attendee first name)
 ### Cryptography
@@ -71,7 +69,9 @@ Laravel 6.x
 ### Configuration
 - [ ] Look for any "Laravel Gotchas"
 - [ ] Hardcoded values
-- [ ] 
+- [ ] Debug turned on?
+>APP_DEBUG=true in the example env file
+
 [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
 [nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
 [app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
