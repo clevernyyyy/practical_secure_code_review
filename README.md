@@ -6,7 +6,7 @@ Only the spiciest members can be a GOAT.
 
 # Team
 
-![Spicy Team](PXL_20230413_183339069.jpg)
+![Spicy Team](PXL_20230413_210609882.MP.jpg)
 
 
 # Commit
