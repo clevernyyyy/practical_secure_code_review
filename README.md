@@ -5,7 +5,7 @@ Only the spiciest members can be a GOAT.
 ![Spicy Goats](image.png)
 
 # Commit
-We assessed commit `#abcd134`
+We assessed commit `#9289acb`
 
 # Notes for you/your team
 ## Behavior
