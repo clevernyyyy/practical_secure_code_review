@@ -2,7 +2,7 @@
 
 Only the spiciest members can be a GOAT.
 
-[image]
+![Spicy Goats](image.png)
 
 # Commit
 We assessed commit `#abcd134`
