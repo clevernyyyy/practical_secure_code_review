@@ -72,6 +72,21 @@ Laravel 6.x
 - [ ] Debug turned on?
 >APP_DEBUG=true in the example env file
 
+```
+    /*
+    |--------------------------------------------------------------------------
+    | Session Encryption
+    |--------------------------------------------------------------------------
+    |
+    | This option allows you to easily specify that all of your session data
+    | should be encrypted before it is stored. All encryption will be run
+    | automatically by Laravel and you can use the Session like normal.
+    |
+    */
+
+    'encrypt' => false,
+```
+
 - [server.php](https://github.com/Attendize/Attendize/blob/develop/server.php)
 - [nginx.conf](https://github.com/Attendize/Attendize/blob/develop/nginx.conf)
 - [app.php](https://github.com/Attendize/Attendize/blob/develop/config/app.php)
