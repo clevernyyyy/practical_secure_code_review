@@ -4,6 +4,10 @@ Only the spiciest members can be a GOAT.
 
 ![Spicy Goats](image.png)
 
+# Team
+
+
+
 # Commit
 We assessed commit `#9289acb`
 
