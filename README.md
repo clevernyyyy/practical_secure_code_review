@@ -59,6 +59,7 @@ Laravel 6.x
 ### Authorization
 - [X] CSRF disabled anywhere?
 - [X] No auth
+- [ ] Likely able to cancel anyone's attendance using event_id and attendee_id. [Route](https://github.com/Attendize/Attendize/blob/9289acbab1583898fd85aeee66c7b613d8971deb/routes/web.php#L452-L454) and [function](https://github.com/Attendize/Attendize/blob/9289acbab1583898fd85aeee66c7b613d8971deb/app/Http/Controllers/EventAttendeesController.php#L569) 
 ### Auditing/Logging
 - [X] There is essentially no logging here (besides console logging)
 ### Injection
